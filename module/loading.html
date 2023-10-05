@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="../assets/css/loadin_style.css">
+</head>
+<body>
+    <div class="background" id="loadin_style">
+        <div class="loading-animation">
+            <span class="loading-animation__1">G</span>
+            <span class="loading-animation__2">O</span>
+            <span class="loading-animation__3">T</span>
+            <span class="loading-animation__4">H</span>
+            <span class="loading-animation__5">A</span>
+            <span class="loading-animation__6">M</span>
+        </div>
+    </div>
+    <script>
+    window.onload = function() {
+        setTimeout(() => {
+            document.getElementById('loadin_style').style.transform = 'translateY(-100%)';
+            setTimeout(() => {
+                document.getElementById('loadin_style').style.display = 'none';
+            }, 500);
+        }, 3000);
+    }
+</script>
+</body>

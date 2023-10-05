@@ -1,0 +1,47 @@
+.footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+}
+
+.footer__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 90vw;
+    height: 6vh;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer__icons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 10vw;
+    height: auto;
+}
+
+.icon {
+    display: block;
+    width: 3vw;
+    height: auto;
+}
+.icon a img{
+    width: 100%;
+    height: auto;
+}
+.footer__logo {
+    display: block;
+}
+
+.footer__fhone h3{
+    font-family: Gropled;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: white;
+}

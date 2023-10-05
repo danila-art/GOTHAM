@@ -1,0 +1,219 @@
+.header {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 8vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.header__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header__flex-logo {
+    display: block;
+    width: 12vw;
+    height: auto;
+}
+
+.header__flex-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 40vw;
+    height: auto;
+    align-items: center;
+}
+
+.nav__a {
+    display: block;
+    color: white;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+.nav__a a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__a h3 {
+    font-family: CutOutOf;
+    font-style: normal;
+    font-size: 18pt;
+    letter-spacing: 4px;
+}
+
+.user {
+    display: block;
+    width: 5vw;
+    height: auto;
+    padding: 1%;
+}
+
+.user img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* module style */
+.module {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+
+.module__registration {
+    display: none;
+    position: relative;
+    background-color: rgba(21, 21, 21, 0.9);
+    width: 40vw;
+    height: auto;
+    padding: 1%;
+    margin: 2% auto;
+    border: 2px solid white;
+}
+
+.module__autorization {
+    display: none;
+    position: relative;
+    background-color: rgba(21, 21, 21, 0.9);
+    width: 40vw;
+    height: auto;
+    padding: 1%;
+    margin: 15% auto;
+    border: 2px solid white;
+}
+
+.module__close {
+    display: block;
+    position: absolute;
+    width: 4vw;
+    height: auto;
+    padding: 1%;
+    top: 1%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.module__close img {
+    width: 100%;
+    height: auto;
+}
+
+.module__heading {
+    display: block;
+    text-align: center;
+}
+
+.module__heading h3 {
+    font-family: Gropled;
+    font-size: 28px;
+    color: #0f0;
+    text-transform: uppercase;
+}
+
+.form__registration {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.form__autorization {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.form__box {
+    display: block;
+    position: relative;
+    width: 30vw;
+    height: auto;
+    margin: 2% auto;
+}
+
+.form__box h4 {
+    font-family: Gropled;
+    font-size: 18px;
+    color: white;
+    padding: 2%;
+    margin-left: 4%;
+    letter-spacing: 2px;
+}
+
+.input__registr {
+    display: block;
+    background-color: rgba(37, 37, 37, 0.3);
+    border: 1px solid white;
+    width: 70%;
+    height: 4vh;
+    border-radius: 10px;
+    color: white;
+}
+
+.form__submit {
+    display: block;
+    margin-top: 2%;
+}
+
+.form__submit input {
+    display: block;
+    position: relative;
+    background: #0f0;
+    color: #000;
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Gropled;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.form__submit input:focus {
+    text-decoration: none;
+    border: none;
+}
+
+.button__module {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.button__module h3 {
+    color: white;
+    font-family: Gropled;
+    font-size: 18px;
+    letter-spacing: 4%;
+}
+
+.button__module span{
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.background {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 10000;
+    transition: .5s;
+
+}
+
+.loading-animation {
+    display: block;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    margin-top: 22%;
+}
+
+.loading-animation span {
+    color: white;
+    font-family: CutOutOf;
+    font-size: 42pt;
+}
+
+.loading-animation__1 {
+    opacity: 0;
+    animation: 1s ease-in-out loading;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.loading-animation__2 {
+    opacity: 0;
+    animation: 1s ease-in-out 300ms loading;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.loading-animation__3 {
+    opacity: 0;
+    animation: 1s ease-in-out 600ms loading;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.loading-animation__4 {
+    opacity: 0;
+    animation: 1s ease-in-out 900ms loading;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.loading-animation__5 {
+    opacity: 0;
+    animation: 1s ease-in-out 1200ms loading;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.loading-animation__6 {
+    opacity: 0;
+    animation: 1s ease-in-out 1500ms loading;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.gif-loading {
+    display: block;
+    width: 30vw;
+    height: 10vh;
+}
+.gif-loading img{
+    width: 100%;
+    height: auto;
+}
+@keyframes loading {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
